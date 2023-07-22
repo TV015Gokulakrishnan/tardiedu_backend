@@ -21,10 +21,11 @@ async contactUs(req,res){
         <div><h3 style="display:inline">3. Company  : </h3>  ${subject}</div>
         <div><h3 style="display:inline">4. Remarks  : </h3>  ${message}</div>
         `;
-
+        console.log(email);
         //   email details
         let details = {
-          from: email,
+          
+          from: "connect@tardiverse.com",
           to: "gokulakrishnan.k@tardiverse.com",
           subject: "TardiEdu || Contact us Form Response",
           html: html,
