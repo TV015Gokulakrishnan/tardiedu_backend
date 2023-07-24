@@ -25,8 +25,8 @@ async contactUs(req,res){
         //   email details
         let details = {
           
-          from: "connect@tardiverse.com",
-          to: "ajeeth@tardiverse.com",
+          from: "gokulakrishnan.k@tardiverse.com",
+          to: "hr@tardiverse.com",
           subject: "TardiEdu || Contact us Form Response",
           html: html,
           //   html: html,
